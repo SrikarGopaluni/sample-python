@@ -8,7 +8,7 @@ def welcome():
     return "Welcome to my page"
 
 @app.route("/hi")
-def welcome():
+def greet():
     return "Hi this is srikar"
 
 app.run(host="0.0.0.0",port=4005)
